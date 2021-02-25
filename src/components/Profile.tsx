@@ -5,7 +5,6 @@ import styles from '../styles/components/Profile.module.css';
 export function Profile() {
   const { level} = useContext(ChallengesContext)
 
-  console.log(level);
   
   return (
     <div className={styles.profileContainer}>
